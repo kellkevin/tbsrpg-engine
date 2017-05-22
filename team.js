@@ -1,3 +1,9 @@
 function Team(teamName){
-	return { teamName: this.teamName};
+		return { 
+			teamName: teamName, 
+			characterList: [],
+		addAMember: function(character) {
+
+		}
+	}
 }
